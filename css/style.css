@@ -490,10 +490,19 @@ article .bg {
         display: inline-block;
     }
     .gnb li {
-        padding: 0 10px;
+        padding: 0 7px;
+    }
+    .gnb li:first-child {
+        padding-left: 0;
+    }
+    .gnb li:last-child {
+        padding-right: 0;
     }
     #util {
         display: none;
+    }
+    .gnb i {
+        margin-right: 2px;
     }
 
     .article1 {
@@ -592,6 +601,5 @@ article .bg {
         height:100%; 
         display:block; 
     }
-
 
 }
